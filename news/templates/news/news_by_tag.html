@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div id="wrapper-news">
+    <h1 id="tag-name" class="text-center m-3"></h1>
+</div>
+
+<script src="{% static 'news/js/news_by_tag.js' %}"></script>
+{% endblock %}
